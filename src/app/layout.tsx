@@ -22,10 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <GoogleTagManager gtmId={process.env.GOOGLE_TAG_MANAGER_ID!} />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </head>
+      <GoogleTagManager gtmId={process.env.GOOGLE_TAG_MANAGER_ID!} />
+      <link rel="icon" href="/favicon.ico" sizes="any" />
+
       <body>
         <ThemeProvider attribute="class" defaultTheme="system">
           <Header />
