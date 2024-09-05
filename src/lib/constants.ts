@@ -1,6 +1,6 @@
 export const BASE_URL =
   process.env.NODE_ENV === "production"
-    ? "http://localhost:3000"
+    ? "https://seo-landing-page-lac.vercel.app/"
     : "http://localhost:3000";
 
 export const tableData = [
